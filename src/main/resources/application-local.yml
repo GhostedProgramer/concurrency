@@ -1,0 +1,17 @@
+server:
+  port: 8000
+  tomcat:
+    threads:
+      max: 200
+    max-connections: 300
+
+
+schedule:
+  ecif-url: http://localhost:8000/provider/ecif
+  url-maps:
+    elif: http://localhost:8000/provider/elif
+    iass: http://localhost:8000/provider/caml
+    caml: http://localhost:8000/provider/iass
+    jeen: http://localhost:8000/provider/jeen
+    saas: http://localhost:8000/provider/saas
+  engine-url: http://localhost:8000/provider/engine

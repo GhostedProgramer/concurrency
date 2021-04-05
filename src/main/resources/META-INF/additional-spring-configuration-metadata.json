@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "schedule.ecifUrl",
+      "type": "java.lang.String",
+      "description": "Description for schedule.ecifUrl."
+    },
+    {
+      "name": "schedule.urls",
+      "type": "java.lang.String",
+      "description": "Description for schedule.urls."
+    },
+    {
+      "name": "schedule.engineUrl",
+      "type": "java.lang.String",
+      "description": "Description for schedule.engineUrl."
+    }
+  ]
+}

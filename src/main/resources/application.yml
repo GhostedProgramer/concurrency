@@ -1,0 +1,14 @@
+server:
+  port: 8000
+  tomcat:
+    threads:
+      max: 200
+    max-connections: 300
+
+
+schedule:
+  ecif-url: https://github.com
+  urls:
+    - http://www.baidu.com
+    - http://www.google.com
+  engine-url: http://www.bing.com
